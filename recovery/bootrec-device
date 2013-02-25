@@ -2,8 +2,8 @@
 
 export BOOTREC_CACHE_NODE="/dev/block/mmcblk0p25 b 179 25"
 export BOOTREC_CACHE="/dev/block/mmcblk0p25"
-export BOOTREC_EVENT_NODE="/dev/input/event7 c 13 71"
-export BOOTREC_EVENT="/dev/input/event7"
+export BOOTREC_EVENT_NODE="/dev/input/event5 c 13 69"
+export BOOTREC_EVENT="/dev/input/event5"
 export BOOTREC_LED_RED="/sys/class/leds/lm3533-red/brightness"
 export BOOTREC_LED_GREEN="/sys/class/leds/lm3533-green/brightness"
 export BOOTREC_LED_BLUE="/sys/class/leds/lm3533-blue/brightness"
