@@ -25,7 +25,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/odin/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/odin/bluetooth
 
-TARGET_KERNEL_CONFIG := cyanogen_fusion3_odin_defconfig
+TARGET_KERNEL_CONFIG := cm_fusion3_odin_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
