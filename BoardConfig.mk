@@ -19,7 +19,7 @@
 -include vendor/sony/odin/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := C6503,C6506,odin
+TARGET_OTA_ASSERT_DEVICE := C6502,C6503,C6506,odin
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/odin/include
 
