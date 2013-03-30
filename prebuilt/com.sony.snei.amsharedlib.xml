@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+      Copyright (C) 2012 Sony Network Entertainment International LLC.
+                        All Rights Reserved.
+-->
+
+<permissions>
+    <library name="com.sony.snei.amsharedlib"
+            file="/system/framework/com.sony.snei.amsharedlib.jar"/>
+</permissions>
