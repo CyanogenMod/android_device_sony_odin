@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2012 Sony Mobile Communications AB.
+ * All rights, including trade secret rights, reserved.
+ */
+-->
+<permissions>
+     <library name="com.sony.snei.vu.api.install"
+         file="/system/framework/com.sonyericsson.snp.video.jar" />
+</permissions>

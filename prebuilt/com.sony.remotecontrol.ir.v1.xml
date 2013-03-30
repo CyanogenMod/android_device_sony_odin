@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011,2012 Sony Corporation -->
+<permissions>
+    <library name="com.sony.remotecontrol.ir.v1"
+             file="/system/framework/com.sony.remotecontrol.ir.v1.jar"/>
+</permissions>

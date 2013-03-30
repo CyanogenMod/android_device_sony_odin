@@ -62,6 +62,22 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
     $(LOCAL_PATH)/config/keypad_8960_liquid.kl:system/usr/keylayout/keypad_8960_liquid.kl
 
+# Infrared prebuilt Stuff
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/com.sony.device.jar:system/framework/com.sony.device.jar \
+    $(LOCAL_PATH)/prebuilt/com.sony.remotecontrol.ir.v1.jar:system/framework/com.sony.remotecontrol.ir.v1.jar \
+    $(LOCAL_PATH)/prebuilt/com.sony.smallapp.jar:system/framework/com.sony.smallapp.jar \
+    $(LOCAL_PATH)/prebuilt/com.sony.snei.amsharedlib.jar:system/framework/com.sony.snei.amsharedlib.jar \
+    $(LOCAL_PATH)/prebuilt/IrRemote.apk:system/app/IrRemote.apk \
+    $(LOCAL_PATH)/prebuilt/IrRemoteApiService.apk:system/app/IrRemoteApiService.apk \
+    $(LOCAL_PATH)/prebuilt/IrRemoteService.apk:system/app/IrRemoteService.apk \
+    $(LOCAL_PATH)/prebuilt/SmallAppManagerService.apk:system/app/SmallAppManagerService.apk \
+    $(LOCAL_PATH)/prebuilt/com.sony.device.xml:system/etc/permission/com.sony.device.xml \
+    $(LOCAL_PATH)/prebuilt/com.sony.remotecontrol.ir.v1.xml:system/etc/permission/com.sony.remotecontrol.ir.v1.xml \
+    $(LOCAL_PATH)/prebuilt/com.sony.smallapp.framework.xml:system/etc/permission/com.sony.smallapp.framework.xml \
+    $(LOCAL_PATH)/prebuilt/com.sony.snei.amsharedlib.xml:system/etc/permission/com.sony.snei.amsharedlib.xml \
+    $(LOCAL_PATH)/prebuilt/com.sony.snei.vu.api.install.xml:system/etc/permission/com.sony.snei.vu.api.install.xml
+
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/sony/odin/odin-vendor.mk)
