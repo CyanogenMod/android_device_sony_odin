@@ -20,10 +20,10 @@
 
     <!-- Vibrator Tuning -->
     <bool name="has_vibrator_tuning">true</bool>
-    <string name="vibrator_sysfs_file">"/sys/class/timed_output/vibrator/level"</string>
-    <string name="intensity_max_value">31</string>
-    <string name="intensity_warning_threshold">30</string>
-    <string name="intensity_default_value">29</string>
-    <string name="intensity_min_value">19</string>
+    <string name="vibrator_sysfs_file">"/sys/devices/i2c-2/2-0049/intensity"</string>
+    <string name="intensity_max_value">8</string>
+    <string name="intensity_warning_threshold">6</string>
+    <string name="intensity_default_value">5</string>
+    <string name="intensity_min_value">0</string>
 
 </resources>
