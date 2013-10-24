@@ -15,7 +15,7 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/fusion3-common/fusion3.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/odin/overlay
+PRODUCT_PACKAGE_OVERLAYS += device/sony/odin/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
