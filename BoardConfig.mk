@@ -27,6 +27,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/odin/bluetooth
 
 TARGET_KERNEL_CONFIG := cm_fusion3_odin_defconfig
 
+# Healthd
+BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 
