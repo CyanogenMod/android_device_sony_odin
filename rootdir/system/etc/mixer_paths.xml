@@ -336,7 +336,7 @@
         <ctl name="SLIM_0_TX Channels" value="Two" />
         <ctl name="RX1 MIX2 INP1" value="IIR1" />
         <ctl name="RX2 MIX2 INP1" value="IIR1" />
-        <ctl name="IIR1 INP1 Volume" value="63" />
+        <ctl name="IIR1 INP1 Volume" value="43" />
         <ctl name="IIR1 INP1 MUX" value="DEC7" />
     </path>
 
@@ -346,7 +346,7 @@
         <ctl name="SLIM TX8 MUX" value="DEC8" />
         <ctl name="DEC8 MUX" value="DMIC2" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
-        <ctl name="IIR1 INP1 Volume" value="63" />
+        <ctl name="IIR1 INP1 Volume" value="43" />
         <ctl name="IIR1 INP1 MUX" value="DEC7" />
     </path>
 
