@@ -8,6 +8,10 @@ on boot
     chmod 660 /sys/class/leds/lm3533-lcd-bl-1/brightness
     chown system system /sys/class/leds/lm3533-lcd-bl-2/brightness
     chmod 660 /sys/class/leds/lm3533-lcd-bl-2/brightness
+    write /sys/class/leds/lm3533-lcd-bl-1/max_brightness 255
+    write /sys/class/leds/lm3533-lcd-bl-2/max_brightness 255
+    write /sys/class/leds/lm3533-lcd-bl-1/brightness 128
+    write /sys/class/leds/lm3533-lcd-bl-2/brightness 128
 
     # Vibrator
     chown system system /sys/devices/i2c-2/2-0049/intensity
