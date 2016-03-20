@@ -31,9 +31,7 @@ TARGET_KERNEL_CONFIG := cm_fusion3_odin_defconfig
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
 SECONDARY_BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-2/brightness
 
-# Partition information
-BOARD_VOLD_MAX_PARTITIONS := 26
-
+# Partition sizes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1056964608
