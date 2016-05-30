@@ -1,2 +1,2 @@
-android_device_sony_odin
-========================
+Xperia ZL - CyanogenMod 13.0
+============================
