@@ -1,4 +1,5 @@
-# Copyright (C) 2013 The CyanogenMod Project
+#
+# Copyright (C) 2013-2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,32 +12,19 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-# inherit from the common fusion3 definitions
+# Board device path
+DEVICE_PATH := device/sony/odin
+
+# Board device headers
+TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
+
+# Board common elements
 include device/sony/fusion3-common/BoardConfigCommon.mk
 
-# inherit from the proprietary version
+# Board device elements
+include $(DEVICE_PATH)/board/*.mk
+
+# Board device vendor
 -include vendor/sony/odin/BoardConfigVendor.mk
-
-# Assert
-TARGET_OTA_ASSERT_DEVICE := C6502,C6503,C6506,odin
-
-TARGET_SPECIFIC_HEADER_PATH += device/sony/odin/include
-
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/odin/bluetooth
-
-TARGET_KERNEL_CONFIG := cm_fusion3_odin_defconfig
-
-# Healthd
-BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
-SECONDARY_BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-2/brightness
-
-# Partition sizes
-BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 12595400704
-
-BOARD_HARDWARE_CLASS += device/sony/odin/cmhw
-
-TARGET_DISPLAY_GAMMA_DISABLED := true
