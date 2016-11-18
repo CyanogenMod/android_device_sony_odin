@@ -1,8 +1,5 @@
 $(call inherit-product, device/sony/odin/full_odin.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 # Inherit CM common Phone stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
